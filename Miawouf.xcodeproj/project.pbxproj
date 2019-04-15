@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		9E765FE82263C8FA005DF98B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E765FE72263C8FA005DF98B /* AppDelegate.swift */; };
-		9E765FEA2263C8FA005DF98B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E765FE92263C8FA005DF98B /* ViewController.swift */; };
 		9E765FED2263C8FA005DF98B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E765FEB2263C8FA005DF98B /* Main.storyboard */; };
 		9E765FEF2263C8FB005DF98B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E765FEE2263C8FB005DF98B /* Assets.xcassets */; };
 		9E765FF22263C8FB005DF98B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E765FF02263C8FB005DF98B /* LaunchScreen.storyboard */; };
 		9E765FFD2263C8FB005DF98B /* MiawoufTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E765FFC2263C8FB005DF98B /* MiawoufTests.swift */; };
 		9E7660082263CA05005DF98B /* Races.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7660072263CA05005DF98B /* Races.swift */; };
+		9E76600E226503BE005DF98B /* ThirstySoftRegular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9E76600D226503BE005DF98B /* ThirstySoftRegular.otf */; };
+		9E76601022650587005DF98B /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E76600F22650587005DF98B /* WelcomeViewController.swift */; };
+		9E766012226508AE005DF98B /* FormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E766011226508AE005DF98B /* FormViewController.swift */; };
+		9E76601422650B39005DF98B /* SuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E76601322650B39005DF98B /* SuccessViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,7 +32,6 @@
 /* Begin PBXFileReference section */
 		9E765FE42263C8FA005DF98B /* Miawouf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Miawouf.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E765FE72263C8FA005DF98B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9E765FE92263C8FA005DF98B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9E765FEC2263C8FA005DF98B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9E765FEE2263C8FB005DF98B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E765FF12263C8FB005DF98B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -38,6 +40,10 @@
 		9E765FFC2263C8FB005DF98B /* MiawoufTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiawoufTests.swift; sourceTree = "<group>"; };
 		9E765FFE2263C8FB005DF98B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9E7660072263CA05005DF98B /* Races.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Races.swift; sourceTree = "<group>"; };
+		9E76600D226503BE005DF98B /* ThirstySoftRegular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ThirstySoftRegular.otf; sourceTree = "<group>"; };
+		9E76600F22650587005DF98B /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		9E766011226508AE005DF98B /* FormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewController.swift; sourceTree = "<group>"; };
+		9E76601322650B39005DF98B /* SuccessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +105,9 @@
 		9E7660092263CA0E005DF98B /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				9E765FE92263C8FA005DF98B /* ViewController.swift */,
+				9E76600F22650587005DF98B /* WelcomeViewController.swift */,
+				9E766011226508AE005DF98B /* FormViewController.swift */,
+				9E76601322650B39005DF98B /* SuccessViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -124,6 +132,7 @@
 		9E76600C2263CA2A005DF98B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9E76600D226503BE005DF98B /* ThirstySoftRegular.otf */,
 				9E765FEE2263C8FB005DF98B /* Assets.xcassets */,
 				9E765FF32263C8FB005DF98B /* Info.plist */,
 				9E765FE72263C8FA005DF98B /* AppDelegate.swift */,
@@ -214,6 +223,7 @@
 			files = (
 				9E765FF22263C8FB005DF98B /* LaunchScreen.storyboard in Resources */,
 				9E765FEF2263C8FB005DF98B /* Assets.xcassets in Resources */,
+				9E76600E226503BE005DF98B /* ThirstySoftRegular.otf in Resources */,
 				9E765FED2263C8FA005DF98B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -232,8 +242,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E765FEA2263C8FA005DF98B /* ViewController.swift in Sources */,
+				9E76601022650587005DF98B /* WelcomeViewController.swift in Sources */,
 				9E765FE82263C8FA005DF98B /* AppDelegate.swift in Sources */,
+				9E766012226508AE005DF98B /* FormViewController.swift in Sources */,
+				9E76601422650B39005DF98B /* SuccessViewController.swift in Sources */,
 				9E7660082263CA05005DF98B /* Races.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
