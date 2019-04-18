@@ -9,7 +9,7 @@
 import UIKit
 
 class WelcomeViewController: UIViewController {
-    @IBAction func unwidToWelcome(segue: UIStoryboardSegue) {
-        
+    @IBAction func unwindToThisViewController(segue: UIStoryboardSegue) {
+        print("IM BACK")
     }
 }
